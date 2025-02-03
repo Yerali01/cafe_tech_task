@@ -1,0 +1,15 @@
+how it looks like:
+
+Orders(id, room, tableNo, foods, updatedAt)
+id - int auto increment
+room - string
+tableNo - int
+foods - List of food items. It should have entity Food and count value. So, it is a map
+drinks - same as foods
+updatedAt - IDK, may be unnecessary
+
+
+Foods(id, title, image)
+id - int auto increment
+title - string
+image - dont need
